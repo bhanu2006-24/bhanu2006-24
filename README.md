@@ -1,8 +1,16 @@
 # Hi there, I'm Bhanu Saini! 👋
 
-### 💻 Web Developer | Aspiring Gen AI Engineer | Data Analyst
+### � Web Developer | 🤖 Aspiring Gen AI Engineer | 📊 Data Analyst | 🎮 Game Developer
 
-I'm a passionate **Web Developer** and **Aspiring Gen AI Engineer** currently pursuing Data Science at **IIT Madras**. I love building modern, interactive web applications and exploring the frontiers of Artificial Intelligence.
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Good%20Vibe%20Coder&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Building%20Dreams%20with%20Code&descAlignY=55&descAlign=50" alt="Good Vibe Coder Header" width="100%" />
+</div>
+
+<br>
+
+I'm a passionate **Web Developer** and **Aspiring Gen AI Engineer** currently pursuing Data Science at **IIT Madras**. I bridge the gap between complex backend logic and beautiful frontend design, all while keeping the **good vibes** flowing! ✨
+
+I love building modern, interactive web applications, exploring the frontiers of Artificial Intelligence, and crafting immersive games.
 
 ---
 
@@ -65,16 +73,55 @@ I'm a passionate **Web Developer** and **Aspiring Gen AI Engineer** currently pu
 ---
 
 ## 🛠️ Tech Stack
-- **Web**: React, Node.js, Tailwind CSS, HTML5, CSS3
-- **AI & Data**: Python, Pandas, Scikit-learn, Streamlit, Tableau
-- **Tools**: Git, VS Code, Docker, Figma
+
+### 💻 Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### 🌐 Web Development
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+### 📊 Data Science & AI
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+
+### 🎮 Game Development
+![Pygame](https://img.shields.io/badge/Pygame-333333?style=for-the-badge&logo=python&logoColor=white)
+![Tiled](https://img.shields.io/badge/Tiled-131313?style=for-the-badge&logo=tiled&logoColor=white)
+![Piskel](https://img.shields.io/badge/Piskel-FFD700?style=for-the-badge&logo=piskel&logoColor=black)
+![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
+![Canvas API](https://img.shields.io/badge/Canvas_API-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+### ⚙️ Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ---
 
 ## 📫 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/bhanu-saini-3bb251391/)
-- [Email](mailto:bhanupsaini2024@gmail.com)
-- [Portfolio](https://bhanu-thedataanalyst.pages.dev/)
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/bhanu-saini-3bb251391/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:bhanupsaini2024@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://bhanu-thedataanalyst.pages.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visit_My_Site-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+  </a>
+</div>
 
 <!--
 **bhanu2006-24/bhanu2006-24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

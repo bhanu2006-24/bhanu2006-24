@@ -5,21 +5,28 @@ export const apps = {
         title: 'About Me',
         icon: 'fa-user-astronaut',
         content: `
-            <div style="text-align: center; padding: 40px; max-width: 600px; margin: 0 auto;">
-                <img src="https://github.com/bhanu2006-24.png" style="width: 150px; height: 150px; border-radius: 50%; border: 4px solid #3498db; margin-bottom: 20px; box-shadow: 0 0 20px rgba(52, 152, 219, 0.5);">
-                <h2 style="font-size: 2.5em; margin-bottom: 10px;">Bhanu Pratap Saini</h2>
-                <p style="color: #3498db; font-size: 1.2em; margin-bottom: 30px;">Aspiring Software Engineer & Data Analyst</p>
+            <div style="text-align: center; padding: 40px; max-width: 700px; margin: 0 auto; color: #fff;">
+                <div style="background: linear-gradient(135deg, #6dd5ed, #2193b0); padding: 4px; border-radius: 50%; display: inline-block; box-shadow: 0 0 30px rgba(33, 147, 176, 0.5);">
+                    <img src="https://github.com/bhanu2006-24.png" style="width: 160px; height: 160px; border-radius: 50%; border: 4px solid #1a1a1a; display: block;">
+                </div>
                 
-                <div style="text-align: left; background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1);">
-                    <p style="margin-bottom: 15px; line-height: 1.6;">
+                <h2 style="font-size: 3em; margin: 20px 0 10px; background: linear-gradient(to right, #fff, #a5f2ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800;">Bhanu Pratap Saini</h2>
+                
+                <div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 30px; flex-wrap: wrap;">
+                    <span style="background: rgba(52, 152, 219, 0.2); border: 1px solid rgba(52, 152, 219, 0.4); padding: 5px 15px; border-radius: 20px; font-size: 0.9em; color: #3498db;">Web Developer</span>
+                    <span style="background: rgba(155, 89, 182, 0.2); border: 1px solid rgba(155, 89, 182, 0.4); padding: 5px 15px; border-radius: 20px; font-size: 0.9em; color: #9b59b6;">Gen AI Enthusiast</span>
+                    <span style="background: rgba(46, 204, 113, 0.2); border: 1px solid rgba(46, 204, 113, 0.4); padding: 5px 15px; border-radius: 20px; font-size: 0.9em; color: #2ecc71;">Data Analyst</span>
+                    <span style="background: rgba(230, 126, 34, 0.2); border: 1px solid rgba(230, 126, 34, 0.4); padding: 5px 15px; border-radius: 20px; font-size: 0.9em; color: #e67e22;">Game Dev</span>
+                </div>
+                
+                <div style="text-align: left; background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); padding: 30px; border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.05); box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                    <p style="margin-bottom: 20px; line-height: 1.8; font-size: 1.1em; color: #ddd;">
                         Hi! I'm a passionate developer who loves building things that live on the internet. 
-                        Whether it's a complex data analysis dashboard, an interactive game, or a sleek web application, 
-                        I enjoy the challenge of creating efficient and beautiful software.
+                        I specialize in creating <strong>immersive web experiences</strong>, <strong>interactive games</strong>, and <strong>data-driven applications</strong>.
                     </p>
-                    <p style="line-height: 1.6;">
-                        I specialize in <strong>Python</strong> and <strong>JavaScript</strong>, bridging the gap between 
-                        data science and web development. I'm constantly learning new technologies and looking for 
-                        opportunities to apply my skills to real-world problems.
+                    <p style="line-height: 1.8; font-size: 1.1em; color: #ddd;">
+                        Currently pursuing Data Science at <strong>IIT Madras</strong>, I bridge the gap between complex backend logic and beautiful frontend design. 
+                        My toolkit includes <strong>React, Node.js, Python, and Canvas API</strong> for game development.
                     </p>
                 </div>
             </div>
