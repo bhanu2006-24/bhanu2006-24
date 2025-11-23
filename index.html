@@ -1,54 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhanu's RPG Portfolio</title>
+    <title>Bhanu OS | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <div id="game-container">
-        <canvas id="game-canvas"></canvas>
-        
-        <!-- UI Overlays -->
-        <div id="ui-layer">
-            <div id="start-screen" class="screen">
-                <h1>Bhanu's RPG World</h1>
-                <p>Explore the world to discover my projects!</p>
-                <div class="character-creation">
-                    <input type="text" id="player-name" placeholder="Enter your name" maxlength="12">
-                    <div class="color-picker">
-                        <button class="color-btn" style="background-color: #e74c3c;" data-color="#e74c3c"></button>
-                        <button class="color-btn" style="background-color: #3498db;" data-color="#3498db"></button>
-                        <button class="color-btn" style="background-color: #2ecc71;" data-color="#2ecc71"></button>
-                        <button class="color-btn" style="background-color: #f1c40f;" data-color="#f1c40f"></button>
+    <!-- Boot Screen -->
+    <div id="boot-screen">
+        <div class="boot-logo">
+            <i class="fa-brands fa-windows"></i>
+            <h1>Bhanu OS</h1>
+        </div>
+        <div class="loader"></div>
+    </div>
+
+    <!-- Desktop Environment -->
+    <div id="desktop" class="hidden">
+        <!-- Desktop Icons -->
+        <div class="desktop-icons">
+            <div class="icon" onclick="os.openApp('about')">
+                <i class="fa-solid fa-user-astronaut" style="color: #3498db;"></i>
+                <span>About Me</span>
+            </div>
+            <div class="icon" onclick="os.openApp('projects')">
+                <i class="fa-solid fa-folder-open" style="color: #f1c40f;"></i>
+                <span>Projects</span>
+            </div>
+            <div class="icon" onclick="os.openApp('resume')">
+                <i class="fa-solid fa-file-pdf" style="color: #e74c3c;"></i>
+                <span>Resume</span>
+            </div>
+            <div class="icon" onclick="os.openApp('contact')">
+                <i class="fa-solid fa-envelope" style="color: #2ecc71;"></i>
+                <span>Contact</span>
+            </div>
+            <div class="icon" onclick="window.open('https://github.com/bhanu2006-24', '_blank')">
+                <i class="fa-brands fa-github" style="color: #fff;"></i>
+                <span>GitHub</span>
+            </div>
+        </div>
+
+        <!-- Windows Container -->
+        <div id="windows-container"></div>
+
+        <!-- Taskbar -->
+        <div id="taskbar">
+            <div class="start-btn" onclick="os.toggleStartMenu()">
+                <i class="fa-brands fa-windows"></i>
+            </div>
+            <div class="taskbar-apps" id="taskbar-apps"></div>
+            <div class="system-tray">
+                <div class="tray-icon"><i class="fa-solid fa-wifi"></i></div>
+                <div class="tray-icon"><i class="fa-solid fa-volume-high"></i></div>
+                <div class="clock" id="clock">12:00 PM</div>
+            </div>
+        </div>
+
+        <!-- Start Menu -->
+        <div id="start-menu" class="hidden">
+            <div class="start-header">
+                <div class="user-profile">
+                    <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                    <span>Bhanu Pratap Saini</span>
+                </div>
+                <i class="fa-solid fa-power-off power-btn" onclick="location.reload()"></i>
+            </div>
+            <div class="pinned-apps">
+                <h3>Pinned</h3>
+                <div class="app-grid">
+                    <div class="start-app" onclick="os.openApp('projects')">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Projects</span>
                     </div>
-                    <button id="start-btn">Start Adventure</button>
+                    <div class="start-app" onclick="os.openApp('resume')">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <span>Resume</span>
+                    </div>
+                    <div class="start-app" onclick="os.openApp('terminal')">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>Terminal</span>
+                    </div>
+                    <div class="start-app" onclick="os.openApp('settings')">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Settings</span>
+                    </div>
                 </div>
-            </div>
-
-            <div id="dialog-box" class="hidden">
-                <div id="dialog-content"></div>
-                <button id="dialog-next">Next</button>
-            </div>
-
-            <div id="project-modal" class="hidden">
-                <div class="modal-content">
-                    <span class="close-modal">&times;</span>
-                    <h2 id="project-title">Project Title</h2>
-                    <p id="project-desc">Project Description</p>
-                    <div id="project-tags"></div>
-                    <a href="#" id="project-link" target="_blank">View Project</a>
-                </div>
-            </div>
-            
-            <div id="controls-hint">
-                WASD / Arrows to Move | SPACE to Interact
             </div>
         </div>
     </div>
 
-    <script type="module" src="game/main.js"></script>
+    <script type="module" src="js/os.js"></script>
 </body>
+
 </html>
