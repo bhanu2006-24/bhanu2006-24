@@ -93,22 +93,41 @@ export const projects = [
 
 export const resumeData = {
     name: "Bhanu Pratap Saini",
-    title: "Aspiring Software Engineer | Data Analyst",
-    summary: "Passionate developer with a strong foundation in Python, JavaScript, and Data Analysis. I love building interactive web experiences and solving complex problems through code.",
-    skills: ["Python", "JavaScript", "React", "SQL", "Pandas", "Git", "HTML/CSS", "Node.js", "Streamlit"],
+    title: "Aspiring Software Engineer | Data Analyst | Game Developer",
+    summary: "Passionate and versatile developer with expertise in Python, JavaScript, and Data Analysis. I specialize in building immersive web experiences, interactive games, and data-driven applications. With a strong foundation in both frontend and backend technologies, I love solving complex problems and creating software that makes an impact.",
+    skills: [
+        "Python (Pandas, NumPy, OpenCV)",
+        "JavaScript (React, Node.js, Vanilla JS)",
+        "Web Development (HTML5, CSS3, Tailwind)",
+        "Data Analysis (Streamlit, Power BI, SQL)",
+        "Game Development (Canvas API)",
+        "Tools (Git, VS Code, Jupyter)"
+    ],
     education: [
         {
-            degree: "High School",
-            school: "Local School",
-            year: "2024"
+            degree: "Bachelor of Technology (B.Tech) - Computer Science",
+            school: "University (Pursuing)",
+            year: "2024 - Present"
         }
     ],
     experience: [
         {
-            role: "Freelance Developer",
-            company: "Self-Employed",
+            role: "Full Stack Developer & Creator",
+            company: "Crypto Pulse & RemoteNexus",
+            year: "2024",
+            desc: "Developed 'Crypto Pulse', a comprehensive crypto analytics portal, and 'RemoteNexus', a modern job board for remote work. Implemented real-time API data fetching, responsive UI with Tailwind CSS, and optimized performance."
+        },
+        {
+            role: "Data Analyst & Python Developer",
+            company: "Img Toolkit & Crypto Analysis",
+            year: "2023 - 2024",
+            desc: "Built 'Img Toolkit', an AI-powered image processing suite using OpenCV. Created 'Crypto Analysis', a data visualization dashboard using Streamlit and Pandas to track market trends."
+        },
+        {
+            role: "Game Developer",
+            company: "Indie Projects",
             year: "2023 - Present",
-            desc: "Building web applications and data analysis tools for clients. Developed multiple full-stack projects including a crypto dashboard and job portal."
+            desc: "Designed and developed multiple browser-based games including 'Echo Shooter' and 'Antigravity Game' using HTML5 Canvas and Vanilla JavaScript. Implemented custom physics engines, particle systems, and game loops."
         }
     ]
 };

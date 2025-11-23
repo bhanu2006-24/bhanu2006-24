@@ -58,7 +58,7 @@ export const apps = {
                             <p style="color: #3498db; font-weight: bold; font-size: 1.2em;">${resumeData.title}</p>
                         </div>
                         <div style="text-align: right; font-size: 0.9em;">
-                            <p>bhanupratapsaini2006@gmail.com</p>
+                            <p>bhanupsaini2024@gmail.com</p>
                             <p>github.com/bhanu2006-24</p>
                         </div>
                     </header>
