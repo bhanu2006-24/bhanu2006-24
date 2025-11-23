@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+    max-height: 720px;
+    background-color: #000;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+}
+
+#ui-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f1c40f;
+    text-shadow: 4px 4px #c0392b;
+}
+
+p {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+input {
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.color-picker {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.color-btn {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color-btn:hover, .color-btn.selected {
+    transform: scale(1.2);
+    border-color: #f1c40f;
+}
+
+button#start-btn {
+    padding: 15px 30px;
+    font-family: 'Press Start 2P', cursive;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-bottom: 4px solid #c0392b;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+button#start-btn:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#dialog-box {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background: rgba(0, 0, 0, 0.9);
+    border: 4px solid #fff;
+    padding: 20px;
+    pointer-events: auto;
+}
+
+#dialog-content {
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+#dialog-next {
+    float: right;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+#project-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+}
+
+.modal-content {
+    background: #2c3e50;
+    padding: 40px;
+    border: 4px solid #fff;
+    max-width: 600px;
+    width: 90%;
+    position: relative;
+    text-align: left;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#project-title {
+    color: #f1c40f;
+    margin-bottom: 15px;
+}
+
+#project-tags {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background: #34495e;
+    padding: 5px 10px;
+    font-size: 0.6rem;
+    border-radius: 4px;
+}
+
+#project-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+#controls-hint {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.6rem;
+    opacity: 0.7;
+}

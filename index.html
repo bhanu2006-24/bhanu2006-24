@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhanu's RPG Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        
+        <!-- UI Overlays -->
+        <div id="ui-layer">
+            <div id="start-screen" class="screen">
+                <h1>Bhanu's RPG World</h1>
+                <p>Explore the world to discover my projects!</p>
+                <div class="character-creation">
+                    <input type="text" id="player-name" placeholder="Enter your name" maxlength="12">
+                    <div class="color-picker">
+                        <button class="color-btn" style="background-color: #e74c3c;" data-color="#e74c3c"></button>
+                        <button class="color-btn" style="background-color: #3498db;" data-color="#3498db"></button>
+                        <button class="color-btn" style="background-color: #2ecc71;" data-color="#2ecc71"></button>
+                        <button class="color-btn" style="background-color: #f1c40f;" data-color="#f1c40f"></button>
+                    </div>
+                    <button id="start-btn">Start Adventure</button>
+                </div>
+            </div>
+
+            <div id="dialog-box" class="hidden">
+                <div id="dialog-content"></div>
+                <button id="dialog-next">Next</button>
+            </div>
+
+            <div id="project-modal" class="hidden">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h2 id="project-title">Project Title</h2>
+                    <p id="project-desc">Project Description</p>
+                    <div id="project-tags"></div>
+                    <a href="#" id="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+            
+            <div id="controls-hint">
+                WASD / Arrows to Move | SPACE to Interact
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="game/main.js"></script>
+</body>
+</html>
