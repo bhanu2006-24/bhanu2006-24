@@ -68,6 +68,108 @@ body {
     }
 }
 
+/* Login Screen */
+#login-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9998;
+    transition: opacity 0.5s ease-out;
+}
+
+.login-container {
+    text-align: center;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.user-avatar {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#password-input {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: inherit;
+    outline: none;
+    width: 200px;
+    transition: border-color 0.2s;
+}
+
+#password-input:focus {
+    border-color: var(--accent-color);
+}
+
+#login-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#login-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.login-hint {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.login-hint:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
 /* Desktop */
 #desktop {
     width: 100%;
@@ -257,6 +359,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
 }
 
 .power-btn {
@@ -379,9 +487,15 @@ body {
 
 .window-content {
     flex: 1;
-    overflow: auto;
+    overflow-y: auto;
+    /* Ensure vertical scrolling */
+    overflow-x: hidden;
     padding: 20px;
     color: #ddd;
+    height: 100%;
+    /* Take full available height */
+    min-height: 0;
+    /* Crucial for flex child scrolling */
 }
 
 /* Scrollbar */
@@ -443,4 +557,36 @@ body {
 
 .btn:hover {
     opacity: 0.9;
+}
+
+/* Terminal */
+.terminal-content {
+    font-family: 'Courier New', monospace;
+    padding: 10px;
+    height: 100%;
+    background: #1e1e1e;
+    color: #fff;
+    overflow-y: auto;
+}
+
+.terminal-line {
+    margin-bottom: 5px;
+}
+
+.terminal-prompt {
+    color: #2ecc71;
+    margin-right: 10px;
+}
+
+.terminal-input-line {
+    display: flex;
+}
+
+#terminal-input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: inherit;
+    flex: 1;
+    outline: none;
 }

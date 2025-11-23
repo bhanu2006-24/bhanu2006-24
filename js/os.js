@@ -4,6 +4,7 @@ class OS {
     constructor() {
         this.windows = [];
         this.zIndex = 100;
+        this.isLoggedIn = false;
         this.init();
     }
 
@@ -17,10 +18,44 @@ class OS {
             bootScreen.style.opacity = '0';
             setTimeout(() => {
                 bootScreen.classList.add('hidden');
-                document.getElementById('desktop').classList.remove('hidden');
-                this.playSound('startup');
+                document.getElementById('login-screen').classList.remove('hidden');
+                this.setupLogin();
             }, 1000);
         }, 2000);
+    }
+
+    setupLogin() {
+        const passwordInput = document.getElementById('password-input');
+        const loginBtn = document.getElementById('login-btn');
+
+        const attemptLogin = () => {
+            if (passwordInput.value === '1234') {
+                this.login();
+            } else {
+                passwordInput.style.borderColor = '#e74c3c';
+                passwordInput.classList.add('shake');
+                setTimeout(() => {
+                    passwordInput.style.borderColor = 'rgba(255, 255, 255, 0.2)';
+                    passwordInput.classList.remove('shake');
+                }, 500);
+            }
+        };
+
+        loginBtn.addEventListener('click', attemptLogin);
+        passwordInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') attemptLogin();
+        });
+    }
+
+    login() {
+        this.isLoggedIn = true;
+        const loginScreen = document.getElementById('login-screen');
+        loginScreen.style.opacity = '0';
+        setTimeout(() => {
+            loginScreen.classList.add('hidden');
+            document.getElementById('desktop').classList.remove('hidden');
+            this.playSound('startup');
+        }, 500);
     }
 
     updateClock() {
@@ -84,6 +119,11 @@ class OS {
 
         document.getElementById('windows-container').appendChild(win);
         this.windows.push(appId);
+
+        // Initialize App Logic if exists
+        if (app.init) {
+            app.init(win.querySelector('.window-content'));
+        }
     }
 
     closeWindow(appId) {
@@ -173,21 +213,34 @@ class OS {
         let shiftX = e.clientX - win.getBoundingClientRect().left;
         let shiftY = e.clientY - win.getBoundingClientRect().top;
 
-        function moveAt(pageX, pageY) {
-            win.style.left = pageX - shiftX + 'px';
-            win.style.top = pageY - shiftY + 'px';
-        }
+        const moveAt = (pageX, pageY) => {
+            // Boundary checks
+            let newLeft = pageX - shiftX;
+            let newTop = pageY - shiftY;
 
-        function onMouseMove(event) {
+            // Prevent dragging off-screen (top/left)
+            if (newTop < 0) newTop = 0;
+            if (newLeft < 0) newLeft = 0;
+
+            // Prevent dragging off-screen (bottom/right - keep some part visible)
+            if (newTop > window.innerHeight - 30) newTop = window.innerHeight - 30;
+            if (newLeft > window.innerWidth - 30) newLeft = window.innerWidth - 30;
+
+            win.style.left = newLeft + 'px';
+            win.style.top = newTop + 'px';
+        };
+
+        const onMouseMove = (event) => {
             moveAt(event.pageX, event.pageY);
-        }
+        };
+
+        const onMouseUp = () => {
+            document.removeEventListener('mousemove', onMouseMove);
+            document.removeEventListener('mouseup', onMouseUp);
+        };
 
         document.addEventListener('mousemove', onMouseMove);
-
-        win.onmouseup = function () {
-            document.removeEventListener('mousemove', onMouseMove);
-            win.onmouseup = null;
-        };
+        document.addEventListener('mouseup', onMouseUp);
     }
 
     playSound(type) {
