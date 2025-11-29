@@ -19,11 +19,37 @@ I love building modern, interactive web applications, exploring the frontiers of
 *Experience my projects in a fully functional Windows-style Operating System running right in your browser!*
 
 ---
-
 ## 📊 GitHub Stats
 
 
 <div align="center">
+
+
+<!-- Profile Summary (overall impact) -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bhanu2006-24&theme=radical" alt="Profile Summary Card" />
+
+<!-- Repo & Language Insights (tech breadth) -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bhanu2006-24&theme=radical" alt="Repos per Language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bhanu2006-24&theme=radical" alt="Most Commit Language" />
+
+
+<!-- Activity Graph (consistency & contributions) -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bhanu2006-24&theme=react-dark" alt="Activity Graph" />
+
+<!-- Trophies (recognition & achievements) -->
+<img src="https://github-profile-trophy.vercel.app/?username=bhanu2006-24&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="Trophies" />
+
+<!-- Productivity (commit habits)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bhanu2006-24&theme=radical&utcOffset=5.5" alt="Commit Time Summary" />
+ -->
+<!-- Personality & Engagement -->
+<!-- <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Quote" /> -->
+<!-- <img src="https://komarev.com/ghpvc/?username=bhanu2006-24&style=for-the-badge&color=blue" alt="Profile Views" /> -->
+
+</div>
+
+---
+
 
 <!-- Profile Stats -->
 <!-- <img src="https://github-readme-stats.vercel.app/api?username=bhanu2006-24&show_icons=true&theme=radical&count_private=true" height="180" alt="Profile Stats" /> -->
@@ -34,26 +60,21 @@ I love building modern, interactive web applications, exploring the frontiers of
 <!-- Streak Stats -->
 <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhanu2006-24&theme=radical" height="180" alt="GitHub Streak" /> -->
 
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bhanu2006-24&theme=react-dark" alt="Activity Graph" />
-
-<!-- Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=bhanu2006-24&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="Trophies" />
-
 <!-- Achievements -->
 <!-- <img src="https://github-profile-achievements.vercel.app/api?username=bhanu2006-24" alt="Achievements" /> -->
 
 <!-- Metrics -->
 <!-- <img src="https://github-readme-metrics.vercel.app/api?username=bhanu2006-24" alt="Metrics Overview" /> -->
 
-<!-- Quotes -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Quote" />
-
 <!-- Random Meme -->
 <!-- <img src="https://random-memer.vercel.app/" alt="Random Meme" /> -->
 
 <!-- Contribution Snake -->
 <!-- <img src="https://github.com/bhanu2006-24/bhanu2006-24/blob/output/github-contribution-grid-snake.svg" alt="Contribution Snake" /> -->
+
+
+
+
 
 </div>
 
