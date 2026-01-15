@@ -1,0 +1,54 @@
+
+    <svg width="450" height="195" viewBox="0 0 450 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="450" height="195" rx="10" fill="#161B22" stroke="#30363D" />
+      <text x="25" y="30" class="text title">GitHub Statistics</text>
+      <style>
+    .text { font-family: 'Segoe UI', Ubuntu, Sans-Serif; fill: #C9D1D9; }
+    .title { font-weight: 600; font-size: 18px; fill: #58A6FF; }
+    .label { font-size: 14px; font-weight: 500; }
+    .value { font-size: 14px; font-weight: 600; fill: #C9D1D9; }
+    .icon { fill: #58A6FF; }
+  </style>
+      
+      <g transform="translate(25, 50)">
+        <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" class="icon">
+          <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+        </svg>
+        <text x="25" y="12.5" class="text label">Total Stars:</text>
+        <text x="140" y="12.5" class="text value">2</text>
+      </g>
+    
+      <g transform="translate(225, 50)">
+        <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" class="icon">
+          <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+        </svg>
+        <text x="25" y="12.5" class="text label">Total Commits:</text>
+        <text x="140" y="12.5" class="text value">475</text>
+      </g>
+    
+      <g transform="translate(25, 85)">
+        <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" class="icon">
+          <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0zm2.25 7.5a.75.75 0 100 1.5.75.75 0 000-1.5zM.75 10.75a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0zM12.25 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zM10 3.25a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0zM4.75 3.5h-1a.75.75 0 000 1.5h1a2.25 2.25 0 002.25 2.25h1.5a.75.75 0 000-1.5h-1.5a.75.75 0 00-.75-.75h2a.75.75 0 000-1.5h-2.5a2.25 2.25 0 00-2.25 2.25v2.5a.75.75 0 001.5 0v-2a.75.75 0 01.75-.75h1.5a.75.75 0 000-1.5h-2.25z"/>
+        </svg>
+        <text x="25" y="12.5" class="text label">Total PRs:</text>
+        <text x="140" y="12.5" class="text value">6</text>
+      </g>
+    
+      <g transform="translate(225, 85)">
+        <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" class="icon">
+          <path fill-rule="evenodd" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm0-9a8 8 0 100 16A8 8 0 008 .5zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
+        </svg>
+        <text x="25" y="12.5" class="text label">Total Issues:</text>
+        <text x="140" y="12.5" class="text value">0</text>
+      </g>
+    
+      <g transform="translate(25, 120)">
+        <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" class="icon">
+          <path fill-rule="evenodd" d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.875.23L1.006 4.96A1.75 1.75 0 000 6.511v5.158c0 .546.223 1.05.592 1.455.07.078.147.151.23.217l4.5 3.57a1.75 1.75 0 002.162 0l4.5-3.57a1.75 1.75 0 00.592-1.455V6.51c0-.62-.294-1.21-.794-1.55L8.75 2.23V.75zM8 3.546l4.5 2.45v5.174L8 14.736l-4.5-3.566V5.996L8 3.546z"/>
+        </svg>
+        <text x="25" y="12.5" class="text label">Contributions:</text>
+        <text x="140" y="12.5" class="text value">533</text>
+      </g>
+    
+    </svg>
+  

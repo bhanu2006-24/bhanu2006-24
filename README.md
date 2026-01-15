@@ -88,10 +88,7 @@ Experience my work in a fully functional **Windows-style Operating System** runn
 ## 📈 **GitHub Stats**
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhanu2006-24&theme=radical&hide_border=true" height="150" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api?username=bhanu2006-24&show_icons=true&theme=radical&hide_border=true&count_private=true" height="150" alt="Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhanu2006-24&layout=compact&theme=radical&hide_border=true" height="150" alt="Languages" />
+  <img src="assets/metrics/github-visual-stats.svg" height="450" alt="Bhanu's Metrics" />
 </div>
 
 <br>

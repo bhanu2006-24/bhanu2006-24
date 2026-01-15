@@ -1,0 +1,175 @@
+
+    <svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="800" height="480" rx="12" fill="#0D1117" stroke="#30363D" />
+      
+      <!-- Header -->
+      <rect x="0" y="0" width="800" height="50" rx="12" fill="#21262D" />
+      <rect x="0" y="40" width="800" height="20" fill="#21262D" />
+      <line x1="0" y1="50" x2="800" y2="50" stroke="#30363D" />
+      
+      <text x="30" y="32" class="text" font-size="20" font-weight="600" fill="#58A6FF">Ultimate Profile Analytics</text>
+      
+      <style>
+    .text { font-family: 'Segoe UI', Ubuntu, Sans-Serif; fill: #C9D1D9; }
+    .label { font-size: 12px; font-weight: 500; fill: #8B949E; }
+    .value { font-size: 15px; font-weight: 700; fill: #58A6FF; }
+  </style>
+      
+      <g transform="translate(30, 80)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Followers</text>
+         <text x="25" y="28" class="text value">13</text>
+      </g>
+    
+      <g transform="translate(220, 80)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Following</text>
+         <text x="25" y="28" class="text value">53</text>
+      </g>
+    
+      <g transform="translate(410, 80)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Organizations</text>
+         <text x="25" y="28" class="text value">1</text>
+      </g>
+    
+      <g transform="translate(600, 80)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Sponsors</text>
+         <text x="25" y="28" class="text value">0</text>
+      </g>
+    
+      <g transform="translate(30, 140)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Total Repos</text>
+         <text x="25" y="28" class="text value">58</text>
+      </g>
+    
+      <g transform="translate(220, 140)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Total Gists</text>
+         <text x="25" y="28" class="text value">0</text>
+      </g>
+    
+      <g transform="translate(410, 140)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Packages</text>
+         <text x="25" y="28" class="text value">0</text>
+      </g>
+    
+      <g transform="translate(600, 140)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Code Size</text>
+         <text x="25" y="28" class="text value">12.6 MB</text>
+      </g>
+    
+      <g transform="translate(30, 200)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Stars Earned</text>
+         <text x="25" y="28" class="text value">2</text>
+      </g>
+    
+      <g transform="translate(220, 200)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Forks Earned</text>
+         <text x="25" y="28" class="text value">2</text>
+      </g>
+    
+      <g transform="translate(410, 200)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Stars Given</text>
+         <text x="25" y="28" class="text value">4</text>
+      </g>
+    
+      <g transform="translate(600, 200)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Watching</text>
+         <text x="25" y="28" class="text value">0</text>
+      </g>
+    
+      <g transform="translate(30, 260)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Total Commits</text>
+         <text x="25" y="28" class="text value">475</text>
+      </g>
+    
+      <g transform="translate(220, 260)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">PRs Opened</text>
+         <text x="25" y="28" class="text value">6</text>
+      </g>
+    
+      <g transform="translate(410, 260)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">PRs Reviewed</text>
+         <text x="25" y="28" class="text value">0</text>
+      </g>
+    
+      <g transform="translate(600, 260)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Issues Opened</text>
+         <text x="25" y="28" class="text value">0</text>
+      </g>
+    
+      <g transform="translate(30, 320)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Total Comment</text>
+         <text x="25" y="28" class="text value">6</text>
+      </g>
+    
+      <g transform="translate(220, 320)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Yearly Contribs</text>
+         <text x="25" y="28" class="text value">533</text>
+      </g>
+    
+      <g transform="translate(410, 320)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Current Streak</text>
+         <text x="25" y="28" class="text value">0 Days</text>
+      </g>
+    
+      <g transform="translate(600, 320)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Longest Streak</text>
+         <text x="25" y="28" class="text value">6 Days</text>
+      </g>
+    
+      <g transform="translate(30, 380)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Active Days</text>
+         <text x="25" y="28" class="text value">11%</text>
+      </g>
+    
+      <g transform="translate(220, 380)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Daily Average</text>
+         <text x="25" y="28" class="text value">13.0</text>
+      </g>
+    
+      <g transform="translate(410, 380)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Weekend %</text>
+         <text x="25" y="28" class="text value">41%</text>
+      </g>
+    
+      <g transform="translate(600, 380)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Peak Time</text>
+         <text x="25" y="28" class="text value">Afternoon</text>
+      </g>
+    
+      <g transform="translate(30, 440)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Favorite Lang</text>
+         <text x="25" y="28" class="text value">TypeScript</text>
+      </g>
+    
+      <g transform="translate(220, 440)">
+         <circle cx="10" cy="15" r="4" fill="#7EE787" opacity="0.8" />
+         <text x="25" y="10" class="text label">Account Age</text>
+         <text x="25" y="28" class="text value">1.2 Years</text>
+      </g>
+    
+    </svg>
+  

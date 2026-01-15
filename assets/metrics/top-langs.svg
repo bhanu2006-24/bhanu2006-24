@@ -1,0 +1,48 @@
+
+    <svg width="350" height="195" viewBox="0 0 350 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="350" height="195" rx="10" fill="#161B22" stroke="#30363D" />
+      <text x="25" y="30" class="text title">Top Languages</text>
+      <style>
+    .text { font-family: 'Segoe UI', Ubuntu, Sans-Serif; fill: #C9D1D9; }
+    .title { font-weight: 600; font-size: 18px; fill: #58A6FF; }
+    .lang-name { font-size: 14px; font-weight: 500; }
+    .lang-percent { font-size: 14px; font-weight: 600; fill: #8B949E; }
+  </style>
+      
+      <g transform="translate(25, 60)">
+        <text x="0" y="-5" class="text lang-name">TypeScript</text>
+        <text x="260" y="-5" class="text lang-percent" text-anchor="end">38.0%</text>
+        <rect x="0" y="0" width="260" height="8" rx="4" fill="#30363D" />
+        <rect x="0" y="0" width="98.8" height="8" rx="4" fill="#3178c6" />
+      </g>
+    
+      <g transform="translate(25, 88)">
+        <text x="0" y="-5" class="text lang-name">Jupyter Notebook</text>
+        <text x="260" y="-5" class="text lang-percent" text-anchor="end">31.4%</text>
+        <rect x="0" y="0" width="260" height="8" rx="4" fill="#30363D" />
+        <rect x="0" y="0" width="81.64" height="8" rx="4" fill="#DA5B0B" />
+      </g>
+    
+      <g transform="translate(25, 116)">
+        <text x="0" y="-5" class="text lang-name">HTML</text>
+        <text x="260" y="-5" class="text lang-percent" text-anchor="end">19.7%</text>
+        <rect x="0" y="0" width="260" height="8" rx="4" fill="#30363D" />
+        <rect x="0" y="0" width="51.21999999999999" height="8" rx="4" fill="#e34c26" />
+      </g>
+    
+      <g transform="translate(25, 144)">
+        <text x="0" y="-5" class="text lang-name">JavaScript</text>
+        <text x="260" y="-5" class="text lang-percent" text-anchor="end">5.0%</text>
+        <rect x="0" y="0" width="260" height="8" rx="4" fill="#30363D" />
+        <rect x="0" y="0" width="13" height="8" rx="4" fill="#f1e05a" />
+      </g>
+    
+      <g transform="translate(25, 172)">
+        <text x="0" y="-5" class="text lang-name">Python</text>
+        <text x="260" y="-5" class="text lang-percent" text-anchor="end">4.8%</text>
+        <rect x="0" y="0" width="260" height="8" rx="4" fill="#30363D" />
+        <rect x="0" y="0" width="12.48" height="8" rx="4" fill="#3572A5" />
+      </g>
+    
+    </svg>
+  
