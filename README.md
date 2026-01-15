@@ -7,6 +7,11 @@
 </div>
 
 <br>
+## 📈 **GitHub Stats**
+
+<div align="center">
+  <img src="assets/metrics/github-visual-stats.svg" height="450" alt="Bhanu's Metrics" />
+</div>
 
 I am a **Data Science** student at **IIT Madras** with a passion for building software that feels _alive_. From complex SaaS platforms to immersive 3D games, I bridge the gap between heavy backend logic and stunning, interactive frontends.
 
@@ -84,12 +89,6 @@ Experience my work in a fully functional **Windows-style Operating System** runn
 </div>
 
 ---
-
-## 📈 **GitHub Stats**
-
-<div align="center">
-  <img src="assets/metrics/github-visual-stats.svg" height="450" alt="Bhanu's Metrics" />
-</div>
 
 <br>
 
